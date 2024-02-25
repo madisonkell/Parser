@@ -1,0 +1,4 @@
+while (sum > 100) {
+sum = sum + 1;
+tot = sum + 3.
+}

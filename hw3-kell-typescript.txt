@@ -1,0 +1,334 @@
+Script started on Thu 16 Mar 2023 10:29:06 PM EDT
+[?1034h]0;mrkell@csis3: ~/hw3-kell[01;32mmrkell@csis3[00m:[01;34m~/hw3-kell[00m$ pwd
+/home/m/mrkell/hw3-kell
+]0;mrkell@csis3: ~/hw3-kell[01;32mmrkell@csis3[00m:[01;34m~/hw3-kell[00m$ pwdexitcd ..[2Ppwd[1Plscd hw1[4Plscdlscd bin[4Plscd ..[3Plscd unixls[Kcd lab[4Plscd ..[3Plscd theoryls[Kcd cs105_test[3PDesktopls[Kcd ..[3Plscd Desktopcs105_testls[Kcd theoryls[Kcd ..[3Plscd lab[4Plscd unixls[Kcd ..[K[1Plscd bin[4Plscdlscd hw1[4Plspwdcd ..[1Pexit[1Ppwd[Kcar[Kt > input,[K2.[K[K1.txt
+^C
+]0;mrkell@csis3: ~/hw3-kell[01;32mmrkell@csis3[00m:[01;34m~/hw3-kell[00m$ cat > input1.txt[1P1.txt[C[1P.txtt.txt2.txt
+^C
+]0;mrkell@csis3: ~/hw3-kell[01;32mmrkell@csis3[00m:[01;34m~/hw3-kell[00m$ cat > input2.txt[1P.txt3.txt
+^C
+]0;mrkell@csis3: ~/hw3-kell[01;32mmrkell@csis3[00m:[01;34m~/hw3-kell[00m$ cat > input3.txt[1P.txt4.txt
+^C
+]0;mrkell@csis3: ~/hw3-kell[01;32mmrkell@csis3[00m:[01;34m~/hw3-kell[00m$ cat > input4.txt[1P.txt5.txt
+^C
+]0;mrkell@csis3: ~/hw3-kell[01;32mmrkell@csis3[00m:[01;34m~/hw3-kell[00m$ cat > input5.txt[C[C[C[K[K[K[K[K[K[K[K[K[Kparser.c
+^C
+]0;mrkell@csis3: ~/hw3-kell[01;32mmrkell@csis3[00m:[01;34m~/hw3-kell[00m$ nano inputwq[K[Kq[K1.txt
+[?1049h[1;24r(B[m[4l[?7h[?12l[?25h[?1h=[?1h=[?1h=[39;49m[39;49m(B[m[H[2J(B[0;7m  GNU nano 2.3.1              File: input1.txt                                  [22;33H[ Read 0 lines ][23d^G(B[m Get Help  (B[0;7m^O(B[m WriteOut  (B[0;7m^R(B[m Read File (B[0;7m^Y(B[m Prev Page (B[0;7m^K(B[m Cut Text  (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^J(B[m Justify   (B[0;7m^W(B[m Where Is  (B[0;7m^V(B[m Next Page (B[0;7m^U(B[m UnCut Text(B[0;7m^T(B[m To Spell[3d[1;71H(B[0;7mModified[3d(B[mx = (sum + 4.7) / total[22d(B[0;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?                    [23;1H Y(B[m Yes[K[24d(B[0;7m N(B[m No  [14G   (B[0;7m^C(B[m Cancel[K[22;62H(B[0;7mFile Name to Write: input1.txt                              [23d^G(B[m Get Help[23;21H(B[0;7mM-D(B[m DOS Format	(B[0;7mM-A(B[m Append[23;61H(B[0;7mM-B(B[m Backup File[24d(B[0;7m^C(B[m Cancel	    (B[0;7mM-M(B[m Mac Format	(B[0;7mM-P(B[m Prepend[22;31H[23d[39;49m(B[m[J[1;71H(B[0;7m        [22;32H(B[m[1K	(B[0;7m[ Wrote 1 line ](B[m[K[24;80H[24;1H[?1049l[?1l>]0;mrkell@csis3: ~/hw3-kell[01;32mmrkell@csis3[00m:[01;34m~/hw3-kell[00m$ nano input1.txt[1P.txt2.txt
+[?1049h[1;24r(B[m[4l[?7h[?12l[?25h[?1h=[?1h=[?1h=[39;49m[39;49m(B[m[H[2J(B[0;7m  GNU nano 2.3.1              File: input2.txt                                  [22;33H[ Read 0 lines ][23d^G(B[m Get Help  (B[0;7m^O(B[m WriteOut  (B[0;7m^R(B[m Read File (B[0;7m^Y(B[m Prev Page (B[0;7m^K(B[m Cut Text  (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^J(B[m Justify   (B[0;7m^W(B[m Where Is  (B[0;7m^V(B[m Next Page (B[0;7m^U(B[m UnCut Text(B[0;7m^T(B[m To Spell[3d[1;71H(B[0;7mModified[3d(B[mif (y > 10) { y = y + 1 }[5delse { y = y – 1 }[22d[K[5;19H[A[4;22r[22;1H
+[1;24r[3;26H[4;19H[Z 1 }[K[14G- 1 }[15G 	 }[22d(B[0;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?                    [23;1H Y(B[m Yes[K[24d(B[0;7m N(B[m No  [14G   (B[0;7m^C(B[m Cancel[K[22;62H(B[0;7mFile Name to Write: input2.txt                              [23d^G(B[m Get Help[23;21H(B[0;7mM-D(B[m DOS Format	(B[0;7mM-A(B[m Append[23;61H(B[0;7mM-B(B[m Backup File[24d(B[0;7m^C(B[m Cancel	    (B[0;7mM-M(B[m Mac Format	(B[0;7mM-P(B[m Prepend[22;31H[23d[39;49m(B[m[J[1;71H(B[0;7m        [22;31H(B[m[1K (B[0;7m[ Wrote 2 lines ](B[m[K[24;80H[24;1H[?1049l[?1l>]0;mrkell@csis3: ~/hw3-kell[01;32mmrkell@csis3[00m:[01;34m~/hw3-kell[00m$ nano input2.txt1.txt2.txt[1P.txt3.txt
+[?1049h[1;24r(B[m[4l[?7h[?12l[?25h[?1h=[?1h=[?1h=[39;49m[39;49m(B[m[H[2J(B[0;7m  GNU nano 2.3.1              File: input3.txt                                  [22;33H[ Read 0 lines ][23d^G(B[m Get Help  (B[0;7m^O(B[m WriteOut  (B[0;7m^R(B[m Read File (B[0;7m^Y(B[m Prev Page (B[0;7m^K(B[m Cut Text  (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^J(B[m Justify   (B[0;7m^W(B[m Where Is  (B[0;7m^V(B[m Next Page (B[0;7m^U(B[m UnCut Text(B[0;7m^T(B[m To Spell[3d[1;71H(B[0;7mModified[3d(B[mwhile (sum > 100) {[4dsum = sum + 1;[5dtot = sum + 3.[6d}[22d[K[6d}[22d(B[0;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?                    [23;1H Y(B[m Yes[K[24d(B[0;7m N(B[m No  [14G   (B[0;7m^C(B[m Cancel[K[22;62H(B[0;7mFile Name to Write: input3.txt                              [23d^G(B[m Get Help[23;21H(B[0;7mM-D(B[m DOS Format	(B[0;7mM-A(B[m Append[23;61H(B[0;7mM-B(B[m Backup File[24d(B[0;7m^C(B[m Cancel	    (B[0;7mM-M(B[m Mac Format	(B[0;7mM-P(B[m Prepend[22;31H[23d[39;49m(B[m[J[1;71H(B[0;7m        [22;31H(B[m[1K (B[0;7m[ Wrote 4 lines ](B[m[K[24;80H[24;1H[?1049l[?1l>]0;mrkell@csis3: ~/hw3-kell[01;32mmrkell@csis3[00m:[01;34m~/hw3-kell[00m$ nano input3.txt[1P.txt4.txt
+[?1049h[1;24r(B[m[4l[?7h[?12l[?25h[?1h=[?1h=[?1h=[39;49m[39;49m(B[m[H[2J(B[0;7m  GNU nano 2.3.1              File: input4.txt                                  [22;33H[ Read 0 lines ][23d^G(B[m Get Help  (B[0;7m^O(B[m WriteOut  (B[0;7m^R(B[m Read File (B[0;7m^Y(B[m Prev Page (B[0;7m^K(B[m Cut Text  (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^J(B[m Justify   (B[0;7m^W(B[m Where Is  (B[0;7m^V(B[m Next Page (B[0;7m^U(B[m UnCut Text(B[0;7m^T(B[m To Spell[3d[1;71H(B[0;7mModified[3d(B[mfor (x = 0; x < 10; x = x + 1) { total = total + .5 }[22d[K[3;54H[22d(B[0;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?                    [23;1H Y(B[m Yes[K[24d(B[0;7m N(B[m No  [14G   (B[0;7m^C(B[m Cancel[K[22;62H(B[0;7mFile Name to Write: input4.txt                              [23d^G(B[m Get Help[23;21H(B[0;7mM-D(B[m DOS Format	(B[0;7mM-A(B[m Append[23;61H(B[0;7mM-B(B[m Backup File[24d(B[0;7m^C(B[m Cancel	    (B[0;7mM-M(B[m Mac Format	(B[0;7mM-P(B[m Prepend[22;31H[23d[39;49m(B[m[J[1;71H(B[0;7m        [22;32H(B[m[1K	(B[0;7m[ Wrote 1 line ](B[m[K[24;80H[24;1H[?1049l[?1l>]0;mrkell@csis3: ~/hw3-kell[01;32mmrkell@csis3[00m:[01;34m~/hw3-kell[00m$ nano input4.txt[1P.txt5.txt
+[?1049h[1;24r(B[m[4l[?7h[?12l[?25h[?1h=[?1h=[?1h=[39;49m[39;49m(B[m[H[2J(B[0;7m  GNU nano 2.3.1              File: input5.txt                                  [22;33H[ Read 0 lines ][23d^G(B[m Get Help  (B[0;7m^O(B[m WriteOut  (B[0;7m^R(B[m Read File (B[0;7m^Y(B[m Prev Page (B[0;7m^K(B[m Cut Text  (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^J(B[m Justify   (B[0;7m^W(B[m Where Is  (B[0;7m^V(B[m Next Page (B[0;7m^U(B[m UnCut Text(B[0;7m^T(B[m To Spell[3d[1;71H(B[0;7mModified[3d(B[mif (total > 10 total = total + 1[22d[K[3;33H[22d(B[0;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?                    [23;1H Y(B[m Yes[K[24d(B[0;7m N(B[m No  [14G   (B[0;7m^C(B[m Cancel[K[22;62H(B[0;7mFile Name to Write: input5.txt                              [23d^G(B[m Get Help[23;21H(B[0;7mM-D(B[m DOS Format	(B[0;7mM-A(B[m Append[23;61H(B[0;7mM-B(B[m Backup File[24d(B[0;7m^C(B[m Cancel	    (B[0;7mM-M(B[m Mac Format	(B[0;7mM-P(B[m Prepend[22;31H[23d[39;49m(B[m[J[1;71H(B[0;7m        [22;32H(B[m[1K	(B[0;7m[ Wrote 1 line ](B[m[K[24;80H[24;1H[?1049l[?1l>]0;mrkell@csis3: ~/hw3-kell[01;32mmrkell@csis3[00m:[01;34m~/hw3-kell[00m$ nano input5.txt[C[K[K[K[K[K[K[K[K[K[K[K paras[K[Kser.c
+[?1049h[1;24r(B[m[4l[?7h[?12l[?25h[?1h=[?1h=[?1h=[39;49m[39;49m(B[m[H[2J(B[0;7m  GNU nano 2.3.1              File: parser.c                                    [22;33H[ Read 0 lines ][23d^G(B[m Get Help  (B[0;7m^O(B[m WriteOut  (B[0;7m^R(B[m Read File (B[0;7m^Y(B[m Prev Page (B[0;7m^K(B[m Cut Text  (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^J(B[m Justify   (B[0;7m^W(B[m Where Is  (B[0;7m^V(B[m Next Page (B[0;7m^U(B[m UnCut Text(B[0;7m^T(B[m To Spell[3d[1;71H(B[0;7mModified[3d(B[m// **********************************************[4d// Program3: Parser[5d// Course: CS451[6d// Student Name: Madison Kell[7d// Instructor: Il-Hyung Cho[8d// Date of submission: 3/16/23[9d// Program Description:[10d//  -a lexical analyzer system for simple arithmetic expressions[11d//  -adapted to support floating points, if, while, for, and else stmts[22d[K[13d[3;12H[1K if (nextToken == RIGHT_PAREN)[K[4;16H[1K	lex();[5;12H[1K else[6d[1K error();[K[7;8H[1K	} /* End of if (nextToken == ... */[8;8H[1K	/* It was not an id, an integer literal, or a left parenthesis */[9;8H[1K	else[K[10d[1K error();[K[11d    } /* End of else */[K[12;5Hprintf("Exit <factor>\n");[13d}[16dvoid error(){[17;5Hprintf("Error\n");[18;5Hexit(0);[19d}[22d(B[0;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?                    [23;1H Y(B[m Yes[K[24d(B[0;7m N(B[m No  [14G   (B[0;7m^C(B[m Cancel[K[22;62H(B[0;7mFile Name to Write: parser.c                                [23d^G(B[m Get Help[23;21H(B[0;7mM-D(B[m DOS Format	(B[0;7mM-A(B[m Append[23;61H(B[0;7mM-B(B[m Backup File[24d(B[0;7m^C(B[m Cancel	    (B[0;7mM-M(B[m Mac Format	(B[0;7mM-P(B[m Prepend[22;29H[23d[39;49m(B[m[J[1;71H(B[0;7m        [22;30H(B[m[1K (B[0;7m[ Wrote 527 lines ](B[m[K[24;80H[24;1H[?1049l[?1l>]0;mrkell@csis3: ~/hw3-kell[01;32mmrkell@csis3[00m:[01;34m~/hw3-kell[00m$ gcc parser.c
+]0;mrkell@csis3: ~/hw3-kell[01;32mmrkell@csis3[00m:[01;34m~/hw3-kell[00m$ ls -1[Kl
+total 60
+-rwxr-xr-x 1 mrkell domain users 13600 Mar 16 22:32 [0m[01;32ma.out[0m
+-rw-r--r-- 1 mrkell domain users    24 Mar 16 22:30 input1.txt
+-rw-r--r-- 1 mrkell domain users    45 Mar 16 22:31 input2.txt
+-rw-r--r-- 1 mrkell domain users    52 Mar 16 22:31 input3.txt
+-rw-r--r-- 1 mrkell domain users    54 Mar 16 22:31 input4.txt
+-rw-r--r-- 1 mrkell domain users    33 Mar 16 22:32 input5.txt
+-rw-r--r-- 1 mrkell domain users 13559 Mar 16 22:32 parser.c
+-rw-r--r-- 1 mrkell domain users  8192 Mar 16 22:32 typescript
+]0;mrkell@csis3: ~/hw3-kell[01;32mmrkell@csis3[00m:[01;34m~/hw3-kell[00m$ a.out
+bash: a.out: command not found
+]0;mrkell@csis3: ~/hw3-kell[01;32mmrkell@csis3[00m:[01;34m~/hw3-kell[00m$ ./a.out
+=========input1.txt=========
+Next token is: 11, Next lexeme is x 
+Enter <stmts>
+Enter <stmt>
+Enter <asgnstmt>
+Next token is: 20, Next lexeme is = 
+Next token is: 25, Next lexeme is ( 
+Enter <expr>
+Enter <term>
+Enter <factor>
+Next token is: 11, Next lexeme is sum 
+Enter <expr>
+Enter <term>
+Enter <factor>
+Next token is: 21, Next lexeme is + 
+Exit <factor>
+Exit <term>
+Next token is: 12, Next lexeme is 4.7 
+Enter <term>
+Enter <factor>
+Next token is: 26, Next lexeme is ) 
+Exit <factor>
+Exit <term>
+Exit <expr>
+Next token is: 24, Next lexeme is / 
+Exit <factor>
+Next token is: 11, Next lexeme is total 
+Enter <factor>
+Next token is: -1, Next lexeme is EOF 
+Exit <factor>
+Exit <term>
+Exit <expr>
+Exit <asgnstmt>
+Exit <stmt>
+Exit <stmts>
+=========input2.txt=========
+Next token is: 40, Next lexeme is if 
+Enter <stmts>
+Enter <stmt>
+Enter <ifstmt>
+Next token is: 25, Next lexeme is ( 
+Enter <boolexpr>
+Next token is: 11, Next lexeme is y 
+Next token is: 27, Next lexeme is > 
+Enter <comp>
+Exit <comp>
+Next token is: 10, Next lexeme is 10 
+Exit <boolexpr>
+Next token is: 26, Next lexeme is ) 
+Enter <stmt>
+Exit <stmt>
+Next token is: 31, Next lexeme is { 
+Enter <stmt>
+Exit <stmt>
+Exit <ifstmt>
+Exit <stmt>
+Exit <stmts>
+Next token is: 11, Next lexeme is y 
+Enter <stmts>
+Enter <stmt>
+Enter <asgnstmt>
+Next token is: 20, Next lexeme is = 
+Next token is: 11, Next lexeme is y 
+Enter <expr>
+Enter <term>
+Enter <factor>
+Next token is: 21, Next lexeme is + 
+Exit <factor>
+Exit <term>
+Next token is: 10, Next lexeme is 1 
+Enter <term>
+Enter <factor>
+Next token is: 32, Next lexeme is } 
+Exit <factor>
+Exit <term>
+Exit <expr>
+Exit <asgnstmt>
+Exit <stmt>
+Exit <stmts>
+Next token is: 43, Next lexeme is else 
+Enter <stmts>
+Enter <stmt>
+Exit <stmt>
+Exit <stmts>
+Next token is: 31, Next lexeme is { 
+Enter <stmts>
+Enter <stmt>
+Exit <stmt>
+Exit <stmts>
+Next token is: 11, Next lexeme is y 
+Enter <stmts>
+Enter <stmt>
+Enter <asgnstmt>
+Next token is: 20, Next lexeme is = 
+Next token is: 11, Next lexeme is y 
+Enter <expr>
+Enter <term>
+Enter <factor>
+Next token is: 22, Next lexeme is - 
+Exit <factor>
+Exit <term>
+Next token is: 10, Next lexeme is 1 
+Enter <term>
+Enter <factor>
+Next token is: 32, Next lexeme is } 
+Exit <factor>
+Exit <term>
+Exit <expr>
+Exit <asgnstmt>
+Exit <stmt>
+Exit <stmts>
+Next token is: -1, Next lexeme is EOF 
+Enter <stmts>
+Enter <stmt>
+Exit <stmt>
+Exit <stmts>
+=========input3.txt=========
+Next token is: 41, Next lexeme is while 
+Enter <stmts>
+Enter <stmt>
+Enter <whilestmt>
+Next token is: 25, Next lexeme is ( 
+Enter <boolexpr>
+Next token is: 11, Next lexeme is sum 
+Next token is: 27, Next lexeme is > 
+Enter <comp>
+Exit <comp>
+Next token is: 10, Next lexeme is 100 
+Exit <boolexpr>
+Next token is: 26, Next lexeme is ) 
+Next token is: 31, Next lexeme is { 
+Enter <stmt>
+Exit <stmt>
+Exit <whilestmt>
+Exit <stmt>
+Exit <stmts>
+Next token is: 11, Next lexeme is sum 
+Enter <stmts>
+Enter <stmt>
+Enter <asgnstmt>
+Next token is: 20, Next lexeme is = 
+Next token is: 11, Next lexeme is sum 
+Enter <expr>
+Enter <term>
+Enter <factor>
+Next token is: 21, Next lexeme is + 
+Exit <factor>
+Exit <term>
+Next token is: 10, Next lexeme is 1 
+Enter <term>
+Enter <factor>
+Next token is: 29, Next lexeme is ; 
+Exit <factor>
+Exit <term>
+Exit <expr>
+Exit <asgnstmt>
+Exit <stmt>
+Next token is: 11, Next lexeme is tot 
+Enter <stmt>
+Enter <asgnstmt>
+Next token is: 20, Next lexeme is = 
+Next token is: 11, Next lexeme is sum 
+Enter <expr>
+Enter <term>
+Enter <factor>
+Next token is: 21, Next lexeme is + 
+Exit <factor>
+Exit <term>
+Next token is: 12, Next lexeme is 3. 
+Enter <term>
+Enter <factor>
+Next token is: 32, Next lexeme is } 
+Exit <factor>
+Exit <term>
+Exit <expr>
+Exit <asgnstmt>
+Exit <stmt>
+Exit <stmts>
+Next token is: -1, Next lexeme is EOF 
+Enter <stmts>
+Enter <stmt>
+Exit <stmt>
+Exit <stmts>
+=========input4.txt=========
+Next token is: 42, Next lexeme is for 
+Enter <stmts>
+Enter <stmt>
+Enter <forstmt>
+Next token is: 25, Next lexeme is ( 
+Next token is: 11, Next lexeme is x 
+Enter <asgnstmt>
+Next token is: 20, Next lexeme is = 
+Next token is: 10, Next lexeme is 0 
+Enter <expr>
+Enter <term>
+Enter <factor>
+Next token is: 29, Next lexeme is ; 
+Exit <factor>
+Exit <term>
+Exit <expr>
+Exit <asgnstmt>
+Enter <boolexpr>
+Next token is: 11, Next lexeme is x 
+Next token is: 28, Next lexeme is < 
+Enter <comp>
+Exit <comp>
+Next token is: 10, Next lexeme is 10 
+Exit <boolexpr>
+Next token is: 29, Next lexeme is ; 
+Next token is: 11, Next lexeme is x 
+Enter <asgnstmt>
+Next token is: 20, Next lexeme is = 
+Next token is: 11, Next lexeme is x 
+Enter <expr>
+Enter <term>
+Enter <factor>
+Next token is: 21, Next lexeme is + 
+Exit <factor>
+Exit <term>
+Next token is: 10, Next lexeme is 1 
+Enter <term>
+Enter <factor>
+Next token is: 26, Next lexeme is ) 
+Exit <factor>
+Exit <term>
+Exit <expr>
+Exit <asgnstmt>
+Next token is: 31, Next lexeme is { 
+Enter <stmt>
+Exit <stmt>
+Exit <forstmt>
+Exit <stmt>
+Exit <stmts>
+Next token is: 11, Next lexeme is total 
+Enter <stmts>
+Enter <stmt>
+Enter <asgnstmt>
+Next token is: 20, Next lexeme is = 
+Next token is: 11, Next lexeme is total 
+Enter <expr>
+Enter <term>
+Enter <factor>
+Next token is: 21, Next lexeme is + 
+Exit <factor>
+Exit <term>
+Next token is: 12, Next lexeme is .5 
+Enter <term>
+Enter <factor>
+Next token is: 32, Next lexeme is } 
+Exit <factor>
+Exit <term>
+Exit <expr>
+Exit <asgnstmt>
+Exit <stmt>
+Exit <stmts>
+Next token is: -1, Next lexeme is EOF 
+Enter <stmts>
+Enter <stmt>
+Exit <stmt>
+Exit <stmts>
+=========input5.txt=========
+Next token is: 40, Next lexeme is if 
+Enter <stmts>
+Enter <stmt>
+Enter <ifstmt>
+Next token is: 25, Next lexeme is ( 
+Enter <boolexpr>
+Next token is: 11, Next lexeme is total 
+Next token is: 27, Next lexeme is > 
+Enter <comp>
+Exit <comp>
+Next token is: 10, Next lexeme is 10 
+Exit <boolexpr>
+Next token is: 11, Next lexeme is total 
+Enter <stmt>
+Enter <asgnstmt>
+Next token is: 20, Next lexeme is = 
+Next token is: 11, Next lexeme is total 
+Enter <expr>
+Enter <term>
+Enter <factor>
+Next token is: 21, Next lexeme is + 
+Exit <factor>
+Exit <term>
+Next token is: 10, Next lexeme is 1 
+Enter <term>
+Enter <factor>
+Next token is: -1, Next lexeme is EOF 
+Exit <factor>
+Exit <term>
+Exit <expr>
+Exit <asgnstmt>
+Exit <stmt>
+Error
+]0;mrkell@csis3: ~/hw3-kell[01;32mmrkell@csis3[00m:[01;34m~/hw3-kell[00m$ exit
+exit
+
+Script done on Thu 16 Mar 2023 10:33:20 PM EDT
